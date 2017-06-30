@@ -39,7 +39,6 @@ header .logo{
 header img{
   height: 40px;
   max-height: 100%;
-
 }
 
 nav {
@@ -63,6 +62,7 @@ nav a{
 #academy{
   color: gray;
 }
+
 .mobile-nav{
   display: none;
 }
@@ -70,6 +70,7 @@ nav a{
 .fade{
   transition:  background-color 0.5s;
 }
+
 .fade:hover{
   background-color: lightgray;
 }
@@ -80,6 +81,7 @@ nav a{
       margin:0;
       /*padding-right: 24px;*/
     }
+
     header nav a{
       display: none;
     }
@@ -94,9 +96,7 @@ nav a{
    .logo span{
      display: none;
    }
-
 }
-
 
 /* main  */
 
@@ -113,7 +113,6 @@ main{
 
 .banner img{
   width: 100%;
-  /*height: 100%;*/
 }
 
 .right-side{
@@ -151,8 +150,8 @@ main{
   padding: 8px;
   color: white;
   font-weight: normal;
-
 }
+
 .start-button{
   background-color: #4a4a4a;
   text-align: center;
@@ -271,6 +270,7 @@ main{
   color: #4f93e2;
   text-decoration: none;
 }
+
 .event-img{
   max-width: 35%;
   margin-right: 16px;
@@ -376,11 +376,11 @@ main{
 }
 
 @media only screen and (max-width: 480px){
-
   .start-learning{
     background-color: #f5f4f5;
     margin-top: 32px;
   }
+
   .courses{
     display: block;
   }
@@ -412,12 +412,10 @@ main{
 
   .course-img h2{
     margin: 0 0 0 0;
-
   }
 
   .course-img-name h2{
     padding: 16px 0 16px 16px;
-
   }
 }
 
@@ -450,6 +448,7 @@ main{
   max-width: 100%;
   height: auto;
 }
+
 .thesis-left h2{
   margin-top: 24px;
   margin-bottom: 24px;
@@ -488,8 +487,6 @@ main{
 }
 
 @media only screen and (max-width: 480px){
-
-
   .thesis-left h2 p{
     display: none;
   }
@@ -513,7 +510,6 @@ footer{
   display: flex;
   position: relative;
   top: 64px;
-
   justify-content: space-between;
   padding: 12px 24px 40px 24px;
   border-top: 1px lightgray solid;
@@ -522,6 +518,7 @@ footer{
 .terms{
   display: flex;
 }
+
 .terms h5,
 .copyright h5{
   font-size: 0.8em;
@@ -545,6 +542,4 @@ footer{
     padding-top: 16px;
     padding-bottom: 16px;
   }
-
-
 }
